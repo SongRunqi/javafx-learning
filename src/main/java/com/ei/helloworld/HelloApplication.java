@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class HelloApplication extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage)  {
         // 创建button
         Button btn = new Button();
         btn.setText("Say 'Hello World'");
