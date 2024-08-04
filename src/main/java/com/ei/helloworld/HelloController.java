@@ -1,17 +1,18 @@
 package com.ei.helloworld;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javafx.scene.text.Text;
 
 /**
  * @author yitiansong
  */
 public class HelloController {
-    @FXML
-    private Label welcomeText;
 
-    @FXML
-    protected void onHelloButtonClick() {
-        welcomeText.setText("Welcome to JavaFX Application!");
+    @FXML protected Text welcomeText;
+    @FXML private Text actionTarget;
+
+
+    @FXML protected void handleSignIn(){
+        actionTarget.setText("Sign in button pressed");
     }
 }

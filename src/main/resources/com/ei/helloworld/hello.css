@@ -2,7 +2,7 @@
     -fx-background-image: url("background.png");
 }
 
-#welcome-text{
+#welcomeText{
     -fx-font-size: 32px;
     -fx-font-family: "Arial Black";
     -fx-fill: #818181;
